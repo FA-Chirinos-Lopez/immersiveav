@@ -13,18 +13,18 @@ $resize:1500px;
 
 
 .footerSection{
-    border-style: solid;
+    /* border-style: solid;
     border-color: rgb(10, 7, 211);
-    border-width: 5px;
+    border-width: 5px; */
     background-color: rgba(0, 0, 0, 0);
     position: relative;
     top: -95vh;
 }
 
 .breakServices{
-    border-style: solid;
+    /* border-style: solid;
     border-color: rgb(10, 7, 211);
-    border-width: 5px;
+    border-width: 5px; */
     height: 20vh;
 }
 .wrapper4{
@@ -36,9 +36,9 @@ $resize:1500px;
 .body{
     //display: table-cell;
     background-color: rgba(255, 255, 255, 0.9);
-    border-style: solid;
+   /*  border-style: solid;
     border-color: rgb(219, 16, 16);
-    border-width: 5px;
+    border-width: 5px; */
     position:relative;
     top: -95vh;
     right: 0px;
@@ -57,9 +57,9 @@ $resize:1500px;
     background-position: 150%;
     height: auto;
     position: relative;
-    border-style: solid;
+    /* border-style: solid;
     border-color: black;
-    border-width: 5px;
+    border-width: 5px; */
     display: table-cell;
     width: 100vw;
     @media(max-width: $resize){
@@ -143,7 +143,7 @@ $resize:1500px;
 .flexBox_1_2_0{
     display: flex;
     flex-direction: row;
-    border: 5px dotted red;
+    /* border: 5px dotted red; */
     @media(max-width: $resize){
         flex-wrap: wrap-reverse;
         @media(max-width: $resize){
@@ -158,7 +158,7 @@ $resize:1500px;
     left: 5vw;
     top: -8vh;
     padding-top: 20vh;
-    border: 6px dotted yellow;
+    /* border: 6px dotted yellow; */
     width: 40vw;
     @media(max-width: $resize){
         position: inherit;
@@ -174,7 +174,7 @@ $resize:1500px;
     position: relative;
     right: 3vw;
     color: black;
-    border: 5px dotted green;
+    /* border: 5px dotted green; */
     font-size: 6rem;
     font-weight: bold;
     position: relative;
@@ -204,7 +204,7 @@ $resize:1500px;
 .flexBox_1_2_2{
     display: flex;
     flex-direction: row;
-    border: 5px dotted rgb(55, 245, 21); 
+    /* border: 5px dotted rgb(55, 245, 21); */ 
     width: 57vw;
     margin-left: 10%;
     position: relative;
@@ -239,9 +239,9 @@ $resize:1500px;
     width: 100vw;
     height: auto;
     position: relative;
-    border-style: solid;
+   /*  border-style: solid;
     border-color: black;
-    border-width: 2px;
+    border-width: 2px; */
 }
 
 
@@ -249,7 +249,7 @@ $resize:1500px;
 .flexBox_2{
     padding-bottom: 30vh;
     padding-top: 8vh;
-    border: 5px dashed green;
+    /* border: 5px dashed green; */
     display: flex;
     flex-direction: row-reverse;
     
@@ -262,7 +262,7 @@ $resize:1500px;
 .flexBox_2_1{
     padding-left: 3vw;
     width: 85vw;
-    border: 5px dashed rgb(202, 19, 235);
+    /* border: 5px dashed rgb(202, 19, 235); */
     display: flex;
     flex-direction: column;
     @media(max-width:$resize){
@@ -274,7 +274,7 @@ $resize:1500px;
 
     }
     .text_2_1_2{
-        border: 5px dashed blue;
+        /* border: 5px dashed blue; */
         padding-top: 2vh;
         //font-weight: 500;
         padding-right:15vw;
@@ -293,7 +293,7 @@ $resize:1500px;
 .flexBox_2_2{
     
     
-    border:5px dotted yellow;
+    /* border:5px dotted yellow; */
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -324,9 +324,9 @@ $resize:1500px;
     width: 100vw;
     height: auto;
     position: relative;
-    border-style: solid;
+    /* border-style: solid;
     border-color: black;
-    border-width: 2px;
+    border-width: 2px; */
 }
 .servicesThirdTitleBox{
     width: 100%;
@@ -336,7 +336,7 @@ $resize:1500px;
 .flexBox_3{
     padding-bottom: 30vh;
     padding-top: 8vh;
-    border: 5px dashed green;
+    /* border: 5px dashed green; */
     display: flex;
     flex-direction: row;
     @media(max-width: $resize){
@@ -348,7 +348,7 @@ $resize:1500px;
 .flexBox_3_1{
     padding-left: 3vw;
     width: 85vw;
-    border: 5px dashed rgb(202, 19, 235);
+    /* border: 5px dashed rgb(202, 19, 235); */
     display: flex;
     flex-direction: column;
     .text_3_1_1{
@@ -357,7 +357,7 @@ $resize:1500px;
 
     }
     .text_3_1_2{
-        border: 5px dashed blue;
+        /* border: 5px dashed blue; */
         padding-top: 2vh;
         //font-weight: 500;
         padding-right:15vw;
@@ -368,7 +368,7 @@ $resize:1500px;
 .flexBox_3_2{
     
     
-    border:5px dotted yellow;
+   /*  border:5px dotted yellow; */
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -376,7 +376,7 @@ $resize:1500px;
     
 }
 .img_3_2_1{
-    border:5px dotted rgb(51, 255, 0);
+    /* border:5px dotted rgb(51, 255, 0); */
     width: calc(#{$imgsize}*2);
     height: $imgsize;
     @media(max-width: $resize){
@@ -405,9 +405,9 @@ $resize:1500px;
     width: 100vw;
     height: auto;
     //position: relative;
-    border-style: solid;
+    /* border-style: solid;
     border-color: black;
-    border-width: 2px;
+    border-width: 2px; */
 
 }
 
@@ -418,7 +418,7 @@ $resize:1500px;
 
 .flexBox_4{
     padding-bottom: 30vh;
-    border: 5px dashed green;
+    /* border: 5px dashed green; */
     display: flex;
     flex-direction: row-reverse;
     @media(max-width: $resize){
@@ -431,7 +431,7 @@ $resize:1500px;
     padding-top: 20vh;
     padding-left: 3vw;
     width: 85vw;
-    border: 5px dashed rgb(202, 19, 235);
+    /* border: 5px dashed rgb(202, 19, 235); */
     display: flex;
     flex-direction: column;
     @media(max-width:$resize){
@@ -445,7 +445,7 @@ $resize:1500px;
 
     }
     .text_4_1_2{
-        border: 5px dashed blue;
+        /* border: 5px dashed blue; */
         padding-top: 5vh;
         //font-weight: 500;
         padding-right:15vw;
@@ -458,7 +458,7 @@ $resize:1500px;
     position: relative;
     width: 70vw;
     height: 80vh;
-    border:5px dotted yellow;
+    /* border:5px dotted yellow; */
     display: flex;
     flex-direction: column-reverse;
     align-items: flex-end;
