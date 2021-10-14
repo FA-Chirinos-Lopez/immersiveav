@@ -10,25 +10,7 @@ import News from "../components/news";
 
 
   
-/*<StaticImage
-            className="servicesFirstSectionBackground"
-            src={LogoOnlyBlue}
-            alt=""/>
-            <Header/>
-    <Phone/>
-    <Hero/>
-            
-     <HireExpo/>
-        <Footer/>
-       <SubFooter/>        
-            
-            
-            
-            
-            
-            */
-//<img src={IconPhone} alt="" />
-//<img src={LogoOnlyBlue} alt="" />
+
 const firstSectionTexts=[
     
     'Lorem ipsum dolor sit amet consectetur adipiscing elit',
@@ -89,7 +71,7 @@ return(
             
             
     </article>
-    <div className="breakServices"><h1>BREAK</h1>
+    <div className="breakServices"><h1></h1>
     </div>
     {/* **************************************SECOND SECTION************************************************** */}
     <article className="servicesSecondSection">
@@ -105,7 +87,7 @@ return(
             </div>
         </div>        
     </article>
-    <div className="breakServices"><h1>BREAK</h1>
+    <div className="breakServices"><h1></h1>
     </div>
     {/* **************************************THIRD SECTION************************************************** */}
     <article className="servicesThirdSection">
@@ -122,7 +104,7 @@ return(
             </div>
         </div>        
     </article>
-    <div className="breakServices"><h1>BREAK</h1></div>
+    <div className="breakServices"><h1></h1></div>
     {/* **************************************FOURTH SECTION************************************************** */}
     <article className="servicesFourthSection">
     
